@@ -1,0 +1,106 @@
+.main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vw;
+    background-color: #282c34;
+    color: white;
+}
+
+.monitor-loading {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-size: calc(16px + 2vmin); */
+    color: white;
+}
+
+.monitor-header {
+    height: 15vh;
+    line-height: 15vh;
+    vertical-align: middle;
+}
+
+.monitor-main {
+    display: inline-block;
+    font-size: 12vw;
+    height: 70vh;
+    line-height: 70vh;
+    vertical-align: middle;
+}
+
+.monitor-footer {
+    height: 15vh;
+    font-size: 6vh;
+    line-height: 15vh;
+    vertical-align: middle;
+}
+
+.carousel-font-size {
+    height: 15vh;
+    font-size: 8vh;
+    line-height: 15vh;
+    vertical-align: middle;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.max {
+    position: absolute;
+    background-color: #ffc107;
+}
+
+.up {
+    top: 0px;
+    left: 0px;
+    height: 10vw;
+    width: 100%;
+    line-height: 10vw;
+    vertical-align: middle;
+}
+
+.down {
+    bottom: 0px;
+    left: 0px;
+    height: 10vw;
+    width: 100%;
+    line-height: 10vw;
+    vertical-align: middle;
+}
+
+.left {
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 10vw;
+    line-height: 100vh;
+}
+
+.right {
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    width: 10vw;
+    line-height: 100vh;
+}
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.display-block {
+    display: block;
+}
+
+.fade-scale {
+    --fa-beat-fade-scale: 2;
+}
