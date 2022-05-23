@@ -35,9 +35,7 @@ const start = async () => {
       polling_time: parseInt(process.env.PLC_POLL)
     })
     plc.main(def, obj)
-    // plc.on('pub', ({ channel, data }) => {
-    //   logger.info(JSON.parse(data))
-    // })
+    plc.on('pub', ({ channel, data }) => logger.info(JSON.parse(data)))
     // routes
     app.get('/dss', (res, req) => {
       log(req)

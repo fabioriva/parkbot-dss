@@ -26,7 +26,7 @@ const Main = ({ data }) => {
           <Carousel.Item><span className='font-bold'>{t('drive-back')}</span></Carousel.Item>
         </Carousel>
       )}
-      {data.L3 === 3 && (
+      {data.L3 === 1 && (
         <Carousel controls={false} indicators={false} interval={1000} fade>
           {/* <Carousel.Item><FontAwesomeIcon icon={faHand} size='2xl' color='#dc3545' className='fa-beat-fade fade-scale' /></Carousel.Item> */}
           <Carousel.Item><FontAwesomeIcon icon={faCircle} size='2xl' color='#dc3545' /></Carousel.Item>

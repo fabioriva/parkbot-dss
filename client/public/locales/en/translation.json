@@ -6,7 +6,7 @@
     "drive-in": "DRIVE IN",
     "drive-in-mesg-1": "PROCEED SLOWLY",
     "stop": "STOP",
-    "stop-mesg-1": "STOP ENGINE",
+    "stop-mesg-1": "TURN OFF ENGINE",
     "stop-mesg-2": "MESSAGE 2",
     "stop-mesg-3": "MESSAGE 3"
 }
