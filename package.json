@@ -1,11 +1,12 @@
 {
-  "name": "dss",
+  "name": "dss-server",
   "version": "0.1.0",
   "description": "Digital Signage System",
   "main": "server.js",
   "scripts": {
     "test": "standard",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "pm2": "pm2 start server.js --name dss-server --max-memory-restart 64M"
   },
   "author": "f.riva@sotefin.ch",
   "license": "MIT",

@@ -1,6 +1,7 @@
 {
-  "name": "dss",
+  "name": "dss-client",
   "version": "0.1.0",
+  "description": "Digital Signage System",
   "private": true,
   "proxy": "http://localhost:9999",
   "dependencies": {
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build -l 4000",
+    "pm2": "pm2 serve build 4000 --spa --name dss-client"
   },
   "eslintConfig": {
     "extends": [
