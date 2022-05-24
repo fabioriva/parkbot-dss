@@ -5,7 +5,7 @@ const { sendJson } = require('./lib/json')
 const { Monitor } = require('./lib/Monitor')
 const PLC = require('./lib/Plc')
 
-function log(req) {
+function log (req) {
   logger.info({
     'user-agent': req.getHeader('user-agent'),
     method: req.getMethod(),

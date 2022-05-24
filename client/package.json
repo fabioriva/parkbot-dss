@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Digital Signage System",
   "private": true,
-  "proxy": "http://localhost:9999",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
@@ -21,6 +20,7 @@
     "react-i18next": "^11.16.9",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
+    "serve": "^13.0.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

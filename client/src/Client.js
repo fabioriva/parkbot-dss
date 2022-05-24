@@ -1,8 +1,9 @@
 /* eslint-disable no-undef */
 function fetch(cb) {
-  return global.fetch('/dss', {
-    accept: "application/json"
-  })
+  return global
+    .fetch("/dss", {
+      accept: "application/json",
+    })
     .then(checkStatus)
     .then(parseJSON)
     .then(cb);
